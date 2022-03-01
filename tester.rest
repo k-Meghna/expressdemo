@@ -1,0 +1,12 @@
+GET http://localhost:5000/posts/mypost
+
+###
+
+GET  http://localhost:5000/post/mypost
+
+POST  http://localhost:5000/posts
+Content-Type: application/json
+{
+    "name":"my first post",
+    "msg": "i have won football match!",
+}
